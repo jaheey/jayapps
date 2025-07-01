@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jay Apps – Aplikasi Premium Murah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo-link" aria-label="Jay Apps Home">
+        <img src="logo.svg" alt="Jay Apps Logo" class="logo" height="44" />
+      </a>
+      <nav class="nav">
+        <a href="#produk">Produk</a>
+        <a href="#cara">Cara Beli</a>
+        <a href="#metode">Metode Pembayaran</a>
+        <a href="#testimoni">Testimoni</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-flex">
+      <div class="hero-content">
+        <h1 class="hero-title">JAY APPS</h1>
+        <div class="hero-subtitle">SATSET ANTI RIBET</div>
+        <a href="#produk" class="cta-btn">BELANJA SEKARANG</a>
+      </div>
+      <div class="hero-illustration">
+        <svg width="220" height="170" viewBox="0 0 220 170" fill="none">
+          <rect x="30" y="40" width="160" height="80" rx="16" fill="#181818" stroke="#E50914" stroke-width="4"/>
+          <rect x="65" y="95" width="90" height="20" rx="8" fill="#353535"/>
+          <circle cx="110" cy="80" r="16" fill="#fff"/>
+          <rect x="103" y="87" width="14" height="14" rx="4" fill="#E50914"/>
+          <circle cx="110" cy="78" r="8" fill="#333"/>
+          <path d="M107 82 Q110 85 113 82" stroke="#fff" stroke-width="1.5" fill="none"/>
+          <ellipse cx="110" cy="135" rx="21" ry="7" fill="#333" opacity=".25"/>
+          <circle cx="110" cy="118" r="13" fill="#222"/>
+          <rect x="103" y="125" width="14" height="12" rx="4" fill="#E50914"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUK SECTION -->
+  <section class="produk-section" id="produk">
+    <div class="container">
+      <div class="banner-info animate-scroll">
+        <div class="banner-icon">
+          <svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="13" cy="13" r="13" fill="#E50914" opacity="0.90"/>
+            <path d="M13 7v7M13 18h.01" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="banner-text">
+          <strong>Promo Juli:</strong> Dapatkan <span class="banner-highlight">diskon hingga 30%</span> untuk pembelian <b>Netflix, Spotify, dan Top Up MLBB</b>!  
+          <span class="banner-note">Cek detail promo di WhatsApp sebelum checkout.</span>
+        </div>
+      </div>
+
+      <h2 class="section-title">List Produk</h2>
+      <div class="produk-grid">
+        <!-- Netflix -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>Netflix Premium</h3>
+            <ul>
+              <li><span class="varian">1 Bulan</span> <span class="harga">Rp38.000</span></li>
+            </ul>
+            <p class="produk-desc">Akun Netflix premium legal, bisa multi device. Aktivasi instan!</p>
+          </div>
+        </div>
+        <!-- Spotify -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>Spotify Premium Family</h3>
+            <ul>
+              <li><span class="varian">1 Bulan</span> <span class="harga">Rp38.000</span></li>
+            </ul>
+            <p class="produk-desc">Akun Spotify premium family, bebas iklan, bisa 6 user.</p>
+          </div>
+        </div>
+        <!-- YouTube -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>YouTube Premium Family</h3>
+            <ul>
+              <li><span class="varian">1 Bulan</span> <span class="harga">Rp38.000</span></li>
+            </ul>
+            <p class="produk-desc">YouTube Premium family tanpa iklan, bisa untuk 5 user.</p>
+          </div>
+        </div>
+        <!-- Vidio -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Vidio_logo.svg" alt="Vidio" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>Vidio Platinum</h3>
+            <ul>
+              <li><span class="varian">30 Hari</span> <span class="harga">Rp29.000</span></li>
+            </ul>
+            <p class="produk-desc">Akses semua channel & tayangan eksklusif Vidio selama sebulan.</p>
+          </div>
+        </div>
+        <!-- Disney+ -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" alt="Disney+" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>Disney+ Hotstar</h3>
+            <ul>
+              <li><span class="varian">1 Bulan</span> <span class="harga">Rp49.000</span></li>
+            </ul>
+            <p class="produk-desc">Langganan Disney+ Hotstar, resmi, mudah, dan cepat prosesnya.</p>
+          </div>
+        </div>
+        <!-- Viu -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Viu_logo.svg" alt="Viu" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>Viu Premium</h3>
+            <ul>
+              <li><span class="varian">30 Hari</span> <span class="harga">Rp19.000</span></li>
+            </ul>
+            <p class="produk-desc">Viu Premium legal untuk streaming drama Korea, anime, Asia!</p>
+          </div>
+        </div>
+        <!-- Genshin Impact -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Primogem.png" alt="Genshin Impact" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>Genshin Impact Welkin</h3>
+            <ul>
+              <li><span class="varian">Welkin Moon</span> <span class="harga">Rp50.000</span></li>
+            </ul>
+            <p class="produk-desc">Top up Genshin Impact Welkin Moon, aman, cepat, harga murah.</p>
+          </div>
+        </div>
+        <!-- PUBG Mobile -->
+        <div class="produk-card animate-scroll">
+          <div class="produk-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/PUBG_logo.svg" alt="PUBG Mobile" width="32" height="32" loading="lazy"/>
+          </div>
+          <div class="produk-info">
+            <h3>PUBG Mobile UC</h3>
+            <ul>
+              <li><span class="varian">60 UC</span> <span class="harga">Rp13.000</span></li>
+            </ul>
+            <p class="produk-desc">Top up UC PUBG Mobile, harga termurah dan proses instan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARA PEMBELIAN/KEUNGGULAN -->
+  <section class="cara-section" id="cara">
+    <div class="container">
+      <h2 class="section-title">Cara Melakukan Pembelian</h2>
+      <div class="cara-steps-flex">
+        <div class="step animate-scroll">
+          <div class="step-icon"><svg width="28" height="28" fill="none"><circle cx="14" cy="14" r="12" fill="#23272f"/><path d="M9 15l3.5 3L19 11" stroke="#3EBE68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span>Buka website</span>
+        </div>
+        <div class="step animate-scroll">
+          <div class="step-icon"><svg width="28" height="28" fill="none"><circle cx="14" cy="14" r="12" fill="#23272f"/><path d="M9 15l3.5 3L19 11" stroke="#3EBE68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span>Pilih produk dan klik beli</span>
+        </div>
+        <div class="step animate-scroll">
+          <div class="step-icon"><svg width="28" height="28" fill="none"><circle cx="14" cy="14" r="12" fill="#23272f"/><path d="M9 15l3.5 3L19 11" stroke="#3EBE68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span>Diarahkan ke <a href="https://wa.me/6281318241171" target="_blank">WhatsApp</a></span>
+        </div>
+        <div class="step animate-scroll">
+          <div class="step-icon"><svg width="28" height="28" fill="none"><circle cx="14" cy="14" r="12" fill="#23272f"/><path d="M9 15l3.5 3L19 11" stroke="#3EBE68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span>Melakukan pembayaran</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METODE PEMBAYARAN SECTION -->
+  <section class="metode-section" id="metode">
+    <div class="container metode-container">
+      <h2 class="section-title">Metode Pembayaran</h2>
+      <div class="metode-grid">
+        <div class="metode-card">
+          <img src="https://donkey.id/_next/image?url=%2Fassets%2Fimg%2Fmetode%2Fqris.png&w=128&q=75" alt="QRIS" width="48" height="48" loading="lazy" />
+          <span>QRIS (semua e-wallet & bank)</span>
+        </div>
+        <div class="metode-card">
+          <img src="https://donkey.id/_next/image?url=%2Fassets%2Fimg%2Fmetode%2Fgopay.png&w=128&q=75" alt="GoPay" width="48" height="48" loading="lazy" />
+          <span>GoPay</span>
+        </div>
+        <div class="metode-card">
+          <img src="https://donkey.id/_next/image?url=%2Fassets%2Fimg%2Fmetode%2Fdana.png&w=128&q=75" alt="DANA" width="48" height="48" loading="lazy" />
+          <span>DANA</span>
+        </div>
+        <div class="metode-card">
+          <img src="https://donkey.id/_next/image?url=%2Fassets%2Fimg%2Fmetode%2Fovo.png&w=128&q=75" alt="OVO" width="48" height="48" loading="lazy" />
+          <span>OVO</span>
+        </div>
+        <div class="metode-card">
+          <img src="https://donkey.id/_next/image?url=%2Fassets%2Fimg%2Fmetode%2Fshopeepay.png&w=128&q=75" alt="ShopeePay" width="48" height="48" loading="lazy" />
+          <span>ShopeePay</span>
+        </div>
+        <div class="metode-card">
+          <img src="https://donkey.id/_next/image?url=%2Fassets%2Fimg%2Fmetode%2Fbca.png&w=128&q=75" alt="BCA" width="48" height="48" loading="lazy" />
+          <span>BCA / Transfer Bank</span>
+        </div>
+      </div>
+      <div class="metode-note">
+        <small>Pembayaran bisa melalui QRIS (semua e-wallet & bank), GoPay, DANA, OVO, ShopeePay, dan transfer bank (BCA).</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONI (LIVE MARQUEE) -->
+  <section class="testimoni-section" id="testimoni">
+    <div class="container">
+      <h2 class="section-title">Testimoni Pengguna</h2>
+      <div class="testimoni-marquee-wrapper">
+        <div class="testimoni-marquee" id="testimoni-marquee">
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=1" alt="Adit" class="testi-avatar" />
+            <span class="testi-nama">Adit:</span>
+            <span class="testi-kata">Pelayanan cepat, harga murah!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=2" alt="Putri" class="testi-avatar" />
+            <span class="testi-nama">Putri:</span>
+            <span class="testi-kata">Netflix langsung aktif, mantap!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=3" alt="Rizky" class="testi-avatar" />
+            <span class="testi-nama">Rizky:</span>
+            <span class="testi-kata">Gampang banget prosesnya.</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=4" alt="Nadia" class="testi-avatar" />
+            <span class="testi-nama">Nadia:</span>
+            <span class="testi-kata">Admin fast respon. Rekomen banget!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=5" alt="Dimas" class="testi-avatar" />
+            <span class="testi-nama">Dimas:</span>
+            <span class="testi-kata">Top up game super cepat!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=6" alt="Sari" class="testi-avatar" />
+            <span class="testi-nama">Sari:</span>
+            <span class="testi-kata">Pembayaran mudah, proses instan.</span>
+          </div>
+          <!-- Copy ulang agar seamless -->
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=1" alt="Adit" class="testi-avatar" />
+            <span class="testi-nama">Adit:</span>
+            <span class="testi-kata">Pelayanan cepat, harga murah!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=2" alt="Putri" class="testi-avatar" />
+            <span class="testi-nama">Putri:</span>
+            <span class="testi-kata">Netflix langsung aktif, mantap!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=3" alt="Rizky" class="testi-avatar" />
+            <span class="testi-nama">Rizky:</span>
+            <span class="testi-kata">Gampang banget prosesnya.</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=4" alt="Nadia" class="testi-avatar" />
+            <span class="testi-nama">Nadia:</span>
+            <span class="testi-kata">Admin fast respon. Rekomen banget!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=5" alt="Dimas" class="testi-avatar" />
+            <span class="testi-nama">Dimas:</span>
+            <span class="testi-kata">Top up game super cepat!</span>
+          </div>
+          <div class="testi-marq-item">
+            <img src="https://i.pravatar.cc/40?img=6" alt="Sari" class="testi-avatar" />
+            <span class="testi-nama">Sari:</span>
+            <span class="testi-kata">Pembayaran mudah, proses instan.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      © 2025 APLIKASI PREMIUM
+      <span style="float:right;font-size:0.93em;">
+        <a href="admin.html" style="color:#FFD700;">Admin</a>
+      </span>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

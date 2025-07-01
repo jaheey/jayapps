@@ -1,0 +1,7 @@
+<svg width="148" height="48" viewBox="0 0 148 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="148" height="48" rx="12" fill="#181818"/>
+  <text x="38" y="32" font-family="Inter, Poppins, Arial, sans-serif" font-weight="800" font-size="26" fill="#E50914" letter-spacing="3">JAY</text>
+  <text x="92" y="32" font-family="Inter, Poppins, Arial, sans-serif" font-weight="700" font-size="20" fill="#fff" letter-spacing="1.5">APPS</text>
+  <polygon points="16,15 16,33 29,24" fill="#E50914" />
+  <ellipse cx="74" cy="43" rx="48" ry="6" fill="#000" opacity="0.13"/>
+</svg>
